@@ -27,7 +27,11 @@ DEBUG = True
 
 APPEND_SLASH = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['localhost','reviewer.us-south.cf.appdomain.cloud']
+=======
+ALLOWED_HOSTS = ["reviewer.us-south.cf.appdomain.cloud"]
+>>>>>>> b2929704633e0552faae341190f00c7da07aad5f
 
 
 # Application definition
