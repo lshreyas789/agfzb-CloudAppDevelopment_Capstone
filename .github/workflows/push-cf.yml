@@ -7,7 +7,11 @@ env:
   IBM_CLOUD_REGION: us-south
   IBM_CLOUD_GROUP: Default
 <<<<<<< HEAD
+<<<<<<< HEAD
   IBM_CLOUD_SPACE: djangoapp-server
+=======
+  IBM_CLOUD_SPACE: djangoserverapp-space
+>>>>>>> b2929704633e0552faae341190f00c7da07aad5f
 =======
   IBM_CLOUD_SPACE: djangoserverapp-space
 >>>>>>> b2929704633e0552faae341190f00c7da07aad5f
