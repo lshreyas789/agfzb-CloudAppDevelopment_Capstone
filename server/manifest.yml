@@ -1,11 +1,11 @@
   applications:
   - name: review
     routes:
-      - route: reviewer.us-south.cf.appdomain.cloud
+      - route: $HOST.$DOMAIN
     memory: 128M
     buildpack: python_buildpack
   - name: review-nginx
     routes:
-      - route: reviewer.us-south.cf.appdomain.cloud/static
+      - route: $HOST.$DOMAIN
     memory: 128M
     buildpack: staticfile_buildpack
