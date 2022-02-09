@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = [" $HOST.$DOMAIN"]
+ALLOWED_HOSTS = ["reviewer.us-south.cf.appdomain.cloud"]
 
 
 # Application definition
