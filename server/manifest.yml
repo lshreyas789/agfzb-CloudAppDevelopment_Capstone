@@ -1,11 +1,11 @@
   applications:
-  - name: djangoapp
+  - name: review
     routes:
-      - route: $HOST.$DOMAIN
+      - route: reviewer.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: review-nginx
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: reviewer.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack

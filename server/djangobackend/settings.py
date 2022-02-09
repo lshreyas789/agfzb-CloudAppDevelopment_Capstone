@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = [" reviewer.us-south.cf.appdomain.cloud"]
 
 
 # Application definition
@@ -57,7 +57,7 @@ ROOT_URLCONF = 'djangobackend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['agfzb-CloudAppDevelopment_Capstone/server/djangoapp/templates/djangoapp/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

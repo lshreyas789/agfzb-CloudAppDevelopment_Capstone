@@ -9,12 +9,16 @@ from django.contrib import messages
 from datetime import datetime
 import logging
 import json
+from django.shortcuts import render
+
 
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
 
 
 # Create your views here.
+def index(request):
+    return render(request, 'index.html')
 
 
 # Create an `about` view to render a static about page
